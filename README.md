@@ -14,7 +14,7 @@ pip install .
 - postgis
 
 ## Data preparation
-- Create database (dbname, dbuser, dbpass) with the postgis and hstore extensions
+- Create database (dbname, dbuser, dbpass) with the postgis and hstore extensions. See https://wiki.openstreetmap.org/wiki/PostGIS
 - Edit report.conf to set your conection data (dbname, dbuser, dbpass), area name and area/subarera admin_levels
 - Download data: http://download.geofabrik.de/index.html
 - Load data to database:
